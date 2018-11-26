@@ -1,0 +1,30 @@
+#console {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #e0dede;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    -ms-align-items: center;
+    align-items: flex-end;
+
+    cursor: default;
+}
+
+#console > div:first-child {
+    margin-bottom: 5px;
+}
+
+button {
+    width: 30px;
+}

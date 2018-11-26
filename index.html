@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>RB-деревья</title>
+		<link type="text/css" rel="stylesheet" href="Draw-Tree-Styles.css">
+		<link type="text/css" rel="stylesheet" href="console.css">
+	</head>
+	<body>
+		<div id="console">
+			<div>
+				<span>Добавить</span>
+				<input id="add-inp" type="text" size="3">
+				<button id="add-elem">+</button>
+			</div>
+			<div>
+				<span>Удалить</span>
+				<input id="remove-inp" type="text" size="3">
+				<button id="remove-elem">-</button>
+			</div>
+		</div>
+
+		<div id="treeContainer"></div>
+		<!-- Для отрисовки и рендеринга деревьев -->
+		<script src="Draw-Tree-API.js"></script>
+		<script src="Tree-Render.js"></script>
+
+		<!-- RB-дерево и его узлы -->
+		<script src="Node.js"></script>
+		<script src="RB-Tree.js"></script>
+
+		<!-- Пользовательские скрипты -->
+		<script src="Item.js"></script>
+		<script src="main.js"></script>
+
+		<script src="console.js"></script>
+	</body>
+</html>
